@@ -1,1 +1,8 @@
-@import 'css/layout-3.css';
+@import 'css/layout-1.css';
+
+body {
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: paleturquoise;
+}
