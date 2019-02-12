@@ -1,0 +1,49 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, max-content);
+    grid-column-gap: 50px;
+    grid-row-gap: 3em;
+}
+
+#title {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#menu {
+    grid-column: 3 / span 3;
+    grid-row: 1;
+}
+
+#login {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+#sign-up {
+    grid-column: 3 / span 1;
+    grid-row: 2;
+}
+
+#posts {
+    grid-column: 1 / span 3;
+}
+
+#post {
+    grid-column: 2 / span 3;
+    grid-row: 4;
+}
+
+body {
+    background-color: paleturquoise;
+}
